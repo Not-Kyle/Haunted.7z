@@ -1,8 +1,8 @@
-if _G.HauntedLOAD then
-    return nil
-end
+if _G.HauntedONLINE then return nil end
 
-pcall(function() _G.HauntedLOAD = true end)
+pcall(function() 
+    _G.HauntedONLINE = true 
+end)
 
 _G.verison = '0.02a'
 
