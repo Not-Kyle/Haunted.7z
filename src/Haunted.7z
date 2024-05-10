@@ -2,7 +2,7 @@ if _G.HauntedLOAD then
     return nil
 end
 
-ypcall(function() _G.HauntedLOAD = true end)
+pcall(function() _G.HauntedLOAD = true end)
 
 _G.verison = '0.02a'
 
