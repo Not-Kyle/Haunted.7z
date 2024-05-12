@@ -6,8 +6,8 @@ end)
 
 _G.verison = '0.02a'
 
-local game = game
-local gS = game:GetService
+local Client = game
+local gS = Client:GetService
 local Core = gS'CoreGui'
 local Input = gS'UserInputService'
 local StarterGui = gS'StarterGui'
