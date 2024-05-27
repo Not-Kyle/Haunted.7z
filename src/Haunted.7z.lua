@@ -8,9 +8,9 @@ _G.verison = '0.02a'
 
 local Client = game
 local gS = Client:GetService
-local Core = gS'CoreGui'
-local Input = gS'UserInputService'
-local StarterGui = gS'StarterGui'
+local Core = gS('CoreGui')
+local Input = gS('UserInputService')
+local StarterGui = gS('StarterGui')
 local function = AddNotifications(title, text, time) 
     StarterGui:SetCore("SendNotification", 
     {Title = title; Text = text; Icon = 'rbxassetid://13941412659'; Duration = time;})
