@@ -1,8 +1,5 @@
 if _G.HauntedONLINE then return nil end
-
-pcall(function() 
-    _G.HauntedONLINE = true 
-end)
+_G.HauntedONLINE = true
 
 _G.verison = '0.02a'
 
